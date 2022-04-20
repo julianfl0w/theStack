@@ -1,0 +1,19 @@
+{
+	"name": "CUDA",
+	"parents_stack":
+	[
+		"C",
+		"C++",
+		"Fortran"
+	],
+	"children_stack":
+	[
+		"GPU"
+	],
+	"languages":
+	["C","C++","assembly"],
+	"capabilities":
+	[
+		"Graphics library"
+	]
+}
