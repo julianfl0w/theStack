@@ -1,0 +1,21 @@
+{
+	"name": "CUDA",
+	"parents_stack":
+	[
+		"C",
+		"C++",
+		"Fortran"
+	],
+	"children_stack":
+	[
+		"GPU"
+	],
+	"capabilities":
+	[
+		"push–relabel maximum flow algorithm",
+		"fast sort algorithms of large lists",
+		"two-dimensional fast wavelet transform",
+		"molecular dynamics simulations",
+		"machine learning"
+	]
+}

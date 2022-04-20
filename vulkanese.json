@@ -1,0 +1,17 @@
+{
+	"name": "Vulkanese",
+	"parents_stack":
+	[
+	],
+	"children_stack":
+	[
+		"vulkan"
+	],
+	"capabilities":
+	[
+		"rasterization",
+		"gpgpu",
+		"raytracing",
+		"machine learning"
+	]
+}

@@ -1,0 +1,284 @@
+{
+   "children": [
+      {
+         "name": "Aseity",
+         "children": [
+            {
+               "name": "God is self-sufficient",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Eternity",
+         "children": [
+            {
+               "name": "God exists outside of time",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Goodness",
+         "children": [
+            {
+               "name": "God is the final standard",
+               "size": 200
+            },
+            {
+               "name": " of good",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Graciousness",
+         "children": [
+            {
+               "name": "God is compassionate and ",
+               "size": 200
+            },
+            {
+               "name": "gracious",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Holiness",
+         "children": [
+            {
+               "name": "God is separate from sin ",
+               "size": 200
+            },
+            {
+               "name": "and incorruptible",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Immanence",
+         "children": [
+            {
+               "name": "God is in the world",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Immutability",
+         "children": [
+            {
+               "name": "God cannot change",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Impeccability",
+         "children": [
+            {
+               "name": "God is unable to sin",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Incomprehensibility",
+         "children": [
+            {
+               "name": "God is not able to be ",
+               "size": 200
+            },
+            {
+               "name": "fully known",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Incorporeality",
+         "children": [
+            {
+               "name": "God is Spirit",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Infinity",
+         "children": [
+            {
+               "name": "God is the everlasting God",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Jealousy",
+         "children": [
+            {
+               "name": "God is a jelous God",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Love",
+         "children": [
+            {
+               "name": "God is Love",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Mission",
+         "children": [
+            {
+               "name": "God moves to the world ",
+               "size": 200
+            },
+            {
+               "name": "through the church",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Mystery",
+         "children": [
+            {
+               "name": "God is mystery",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Omnipotence",
+         "children": [
+            {
+               "name": "God is all-powerful",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Omnipresence",
+         "children": [
+            {
+               "name": "God is present everywhere",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Omniscience",
+         "children": [
+            {
+               "name": "God is all-knowing",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Unity/Oneness",
+         "children": [
+            {
+               "name": "God is the one and only",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Providence",
+         "children": [
+            {
+               "name": "God gives all men life and ",
+               "size": 200
+            },
+            {
+               "name": "breath and everything else",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Righteousness",
+         "children": [
+            {
+               "name": "God is faithful in the Covenant",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Simplicity",
+         "children": [
+            {
+               "name": "God is not composed of parts",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Sovereignty",
+         "children": [
+            {
+               "name": "God is subject to none, ",
+               "size": 200
+            },
+            {
+               "name": "influenced by none",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Transcendence",
+         "children": [
+            {
+               "name": "God is outside space and time",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Trinity",
+         "children": [
+            {
+               "name": "God is three persons in one: ",
+               "size": 200
+            },
+            {
+               "name": "Father, Son, and Holy Spirit",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Veracity",
+         "children": [
+            {
+               "name": "God does not lie",
+               "size": 200
+            }
+         ]
+      },
+      {
+         "name": "Wrath",
+         "children": [
+            {
+               "name": "God throws down those who ",
+               "size": 200
+            },
+            {
+               "name": "oppose Him",
+               "size": 200
+            }
+         ]
+      }
+   ],
+   "name": "GodPreformat.json"
+}
