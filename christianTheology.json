@@ -9,30 +9,24 @@
 	
 	"Theology proper: God":
 	{
-		"Attributes of God":
-		{
-			"God.json"   : {},
-			"Monotheism" : {},
-			"Trinity"    : {}
-		},
-		
-		"God the Father" : {},
+		"GodTheFather.json" : {},
 		"Christology and Christ" : 
 		{
-			"Christ" : {},
 			"Trinitarian ecumenical councils" : {},
-			"Attributes of Christ": 
-			{
-				"God as Son" : {},
-				"Person of Christ" : {},
-				"Incarnation" : {},
-				"Hypostatic union" : {},
-				"Other Christological concerns" : {}
-			},
-			"Approaches to Christology" : {},
+			"God as Son" : {},
+			"Person of Christ" : {},
+			"Incarnation" : {},
+			"Hypostatic union" : {},
+			"Other Christological concerns" : {},
 			"Works of Christ" : {}
 		},
-		"Pneumatology: Holy Spirit" : {}
+		"Pneumatology: Holy Spirit" : {
+			"New birth" : {},
+			"Charismata : spiritual gifts" : {},
+			"Spirit-baptism" : {},
+			"Sanctification" : {},
+			"The inspiration of prophets" : {}
+		}
 	},
 	"Cosmology: Things created":
 	{
@@ -50,8 +44,16 @@
 			"Demonology: Fallen angels   ": {}
 		},
 		"Heaven" : {},
-		"Hell" : {},
-		"Theodicy: Allowance of evil" : {}
+		"Hell" : {
+			"Sleep": {},
+			"Annihilation": {},
+			"Eternal Torment": {},
+			"A place or state": {},
+			"Self-exclusion": {},
+			"Gehenna": {},
+			"Hades": {}
+		
+		}
 	},
 
 	"Hamartiology: Sin           " : 
@@ -81,5 +83,13 @@
 			"Baptism  ": {}
 		}
 	},
-	"Eschatology": {}
+	"Eschatology": {
+		"The Great Tribulation": {},
+		"Rapture"              : {},
+		"The Second Coming"    : {},
+		"Resurrection of the dead": {},
+		"The Millennium": {},
+		"End of the World and Last Judgment": {},
+		"New Heaven and New Earth": {}
+	}
 }

@@ -1,0 +1,15 @@
+The major stacks in computer science:
+Dataflow
+Composition / Contains
+Inheritance
+Lineage (ex BSD3 -> Linux)
+
+Data always flows upward, towards the human.
+Basic Dataflow stack
+
+User
+Physical / Mechanical interface
+User interface / Frontend
+Backend
+CPU
+GPU
