@@ -4,25 +4,66 @@ infile = sys.argv[1]
 with open(infile, 'r') as f:
 	indict = json.loads(f.read())
 
-	
-def json2flare(name, indict):
+def byname(indict):
+	return indict["name"]
+
+def json2flare(name, inval):
 	children = []
-	for k, v in indict.items():
-		if type(v) is dict:
-			if k.endswith(".json"):
-				with open(k, 'r') as f:
-					newchild = json2flare(k.replace(".json",""), json.loads(f.read()))
-			elif len(v.items()):
-				newchild = json2flare(k, v)
-			else:
-				newchild = {"name":k, "value":200}
-		else:
-			newchild = {"name":k, "value":200}
+
+	if type(inval) is dict:
+		for k, v in inval.items():
+			children += [json2flare(k, v)]
+				
+	elif type(inval) is list:
+		for i, e in enumerate(inval):
+			
+			identifier = str(i)
+			
+			# if the child is a dictionary with a name, 
+			# use that name instead of a number
+			if type(e) is dict:
+				for k in e.keys():
+					if "name" in k:
+						identifier = e[k]
+					if "proto" in k:
+						identifier = e["proto"]["name"]
+						
+			children += [json2flare(identifier, e)]
+
+	elif type(inval) is str and inval.endswith(".json"):
+		with open(inval, 'r') as f:
+			linkedDict = json.loads(f.read())
+		formattedName = inval.replace(".json","")
+		children += [json2flare(formattedName, linkedDict)]
+		
+	else:
+		newchild = {"name":str(inval), "value":1}
 		children += [newchild]
 	
-	newdict = {}
-	newdict["name"] = name
-	newdict["children"] = children
-	return newdict
+	maxlen = 12
+	if len(children) < maxlen:
+		newdict = {}
+		newdict["name"] = name
+		newdict["children"] = children
+	else: # if there are more than maxlen children, break
+		# it up alphabetically
+		newdict = {"name" : name, "children": []}
+		children.sort(key=byname)
+		itemsPerGroup = int(len(children) / maxlen)
+		#print(str(len(children)) + " : " + str(itemsPerGroup))
+		for i, c in enumerate(children):
+			# if this is an alphabet group boundary
+			if not i%itemsPerGroup or i == len(children)-1:
+				if i:
+					thisAlphaGroupDict["name"] += "-"+c["name"]
+					newdict["children"] += [thisAlphaGroupDict]
+				thisAlphaGroupDict = {"name" : c["name"], "children": []}
+				
+			thisAlphaGroupDict["children"] += [c]
+				
+		#print(json.dumps(newdict, indent = 2))
 		
-print(json.dumps(json2flare(infile, indict), indent = 3))
+	return newdict
+
+outdict = json2flare(infile, indict)
+print(json.dumps(outdict, indent = 3))
